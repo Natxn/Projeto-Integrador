@@ -9,6 +9,8 @@ Link para o PDF -> https://github.com/Caroline-Calixto/Projeto-Integrador/blob/m
 
 ## 2) Motivo da escolha
 
+Esse link mostrará o nosso resumo -> https://docs.google.com/document/d/1zjLeTcb5Bk8GInNubUINGyvD6O1RooczoExQeJET0S0/edit?usp=sharing
+
 <div>
 
 ### Tb_usuario
