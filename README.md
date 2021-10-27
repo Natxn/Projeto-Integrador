@@ -52,11 +52,11 @@ Link para o PDF -> https://github.com/Caroline-Calixto/Projeto-Integrador/blob/m
 
 ## 4) Código em SQL 
 
-              CREATE TABLE `tb_usuario` (
+     CREATE TABLE `tb_usuario` (
       `email` varchar(100) NOT NULL,
       `nome` varchar(100) NOT NULL,
       `senha` varchar(8) NOT NULL,
-      PRIMARY KEY (`email`)
+       PRIMARY KEY (`email`)
     );
 
     CREATE TABLE `tb_postagem` (
