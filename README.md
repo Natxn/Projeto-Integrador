@@ -3,6 +3,7 @@
 
 ## 1) Mostrar o DER 
 
+
 Link para o PDF ->  https://github.com/Caroline-Calixto/Projeto-Integrador/blob/main/Task%202/Task2_Projeto_integrador_atualizado.pdf
 
 ## 2) Motivo da escolha
@@ -56,7 +57,9 @@ Esse link mostrará o nosso resumo -> https://docs.google.com/document/d/1zjLeTc
 
 ## 4) Código em SQL 
 
+
        CREATE TABLE `tb_usuario` (
+
       `id_usuario` bigint NOT NULL AUTO_INCREMENT,
       `email` varchar(100) NOT NULL,
       `nome` varchar(100) NOT NULL,
