@@ -3,9 +3,8 @@
 
 ## 1) Mostrar o DER 
 
-Esse link mostrará o DER -> https://dbdesigner.page.link/5WXRadPFn8FitgFh6
 
-Link para o PDF -> https://github.com/Felipepereiralima/Projeto-Integrador/blob/main/Task%202/Task2_Projeto_integrador_atualizado.pdf
+Link para o PDF ->  https://github.com/Caroline-Calixto/Projeto-Integrador/blob/main/Task%202/Task2_Projeto_integrador_atualizado.pdf
 
 ## 2) Motivo da escolha
 
@@ -14,6 +13,8 @@ Esse link mostrará o nosso resumo -> https://docs.google.com/document/d/1zjLeTc
 <div>
 
 ### Tb_usuario
+ 
+* id_usuario: é utilizado como a primary key da tabela. 
  
 * E-mail: escolhemos para ser a chave primária porque ele não se repete.
 
@@ -30,18 +31,20 @@ Esse link mostrará o nosso resumo -> https://docs.google.com/document/d/1zjLeTc
 
 * curtida: é utilizado como contador para o número de curtidas de cada postagem.
 
-* imagem: é a parte da tabela onde o usuário irá colocar suas postagens em forma de imagem, vídeo, pdf ou word...
+* imagem: é a parte da tabela onde o usuário irá colocar suas postagens em forma de imagem, vídeo, pdf ou word via link
 
 * fk_email: chave estrangeira importada da tb_ usuário.
 
 * fk_id_tema: chave estrangeira importada da tb_tema.
 
 ### Tb_tema
-* Categoria: Escolhemos esse atributo pois ele se relacionará com a tabela de postagem e será como um identificador para facilitar a leitura do usuário.
 
-* salvar:  É um atributo que permitirá que o usuário salve as postagens e tenha fácil acesso a elas posteriormente. Ele é do tipo binário por representar apenas as opções “SIM” ou “NÃO”.
+ * nome_categoria: Escolhemos esse atributo pois ele se relacionará com a tabela de postagem e será como um identificador para facilitar a leitura do usuário.
+ 
+ * descricao_categoria: Atributo utilizado para complementar as informações do nome categoria
 
-* alta_dia: boolean: Atributo utilizado para identificar se uma postagem estará em alta ou não.
+ * salvar:  É um atributo que permitirá que o usuário salve as postagens e tenha fácil acesso a elas posteriormente. Ele é do tipo binário por representar apenas as opções “SIM” ou “NÃO”.
+
 
 
 <br>
@@ -54,7 +57,9 @@ Esse link mostrará o nosso resumo -> https://docs.google.com/document/d/1zjLeTc
 
 ## 4) Código em SQL 
 
-      CREATE TABLE `tb_usuario` (
+
+       CREATE TABLE `tb_usuario` (
+
       `id_usuario` bigint NOT NULL AUTO_INCREMENT,
       `email` varchar(100) NOT NULL,
       `nome` varchar(100) NOT NULL,
