@@ -1,4 +1,4 @@
-# Atividade  + Projeto Integrador – Rede Social
+# Task 2 + Projeto Integrador – Rede Social
 
 
 ## 1) Mostrar o DER 
