@@ -3,8 +3,6 @@
 
 ## 1) Mostrar o DER 
 
-Esse link mostrará o DER -> https://dbdesigner.page.link/5WXRadPFn8FitgFh6
-
 Link para o PDF ->  https://github.com/Caroline-Calixto/Projeto-Integrador/blob/main/Task%202/Task2_Projeto_integrador_atualizado.pdf
 
 ## 2) Motivo da escolha
